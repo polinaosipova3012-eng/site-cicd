@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust — путешествия мечты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="#" class="logo">Wander<span>lust</span></a>
+            <nav class="nav">
+                <a href="#about" class="nav__link">О нас</a>
+                <a href="#tours" class="nav__link">Туры</a>
+                <a href="#contacts" class="nav__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container hero__inner">
+            <h1 class="hero__title">Открой для себя мир заново</h1>
+            <p class="hero__text">
+                Авторские туры в самые красивые уголки планеты.
+                Маршруты, которые невозможно найти в обычных путеводителях.
+            </p>
+            <a href="#tours" class="btn">Выбрать тур</a>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features" id="about">
+        <div class="container features__grid">
+            <article class="card">
+                <div class="card__icon">🗺️</div>
+                <h3 class="card__title">Уникальные маршруты</h3>
+                <p class="card__text">Каждый тур разработан путешественниками с опытом более 10 лет.</p>
+            </article>
+            <article class="card">
+                <div class="card__icon">🧳</div>
+                <h3 class="card__title">Всё включено</h3>
+                <p class="card__text">Проживание, страховка и трансферы уже в стоимости путешествия.</p>
+            </article>
+            <article class="card">
+                <div class="card__icon">👥</div>
+                <h3 class="card__title">Мини-группы</h3>
+                <p class="card__text">Не более 12 человек в группе — комфорт и внимание каждому.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Популярные туры -->
+    <section class="tours" id="tours">
+        <div class="container">
+            <h2 class="section-title">Популярные направления</h2>
+            <div class="tours__grid">
+                <article class="tour">
+                    <div class="tour__image tour__image--mountains">🏔️</div>
+                    <div class="tour__body">
+                        <h3 class="tour__title">Горы Алтая</h3>
+                        <p class="tour__text">10 дней среди горных озёр и кедровых лесов.</p>
+                        <div class="tour__footer">
+                            <span class="tour__price">от 65 000 ₽</span>
+                            <a href="#" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="tour">
+                    <div class="tour__image tour__image--sea">🌊</div>
+                    <div class="tour__body">
+                        <h3 class="tour__title">Байкал летом</h3>
+                        <p class="tour__text">7 дней на самом глубоком озере планеты.</p>
+                        <div class="tour__footer">
+                            <span class="tour__price">от 48 000 ₽</span>
+                            <a href="#" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="tour">
+                    <div class="tour__image tour__image--desert">🏜️</div>
+                    <div class="tour__body">
+                        <h3 class="tour__title">Ушканьи острова</h3>
+                        <p class="tour__text">5 дней дикой природы и северного неба.</p>
+                        <div class="tour__footer">
+                            <span class="tour__price">от 39 000 ₽</span>
+                            <a href="#" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer" id="contacts">
+        <div class="container footer__inner">
+            <p class="footer__text">© 2026 Wanderlust. Все права защищены.</p>
+            <a href="mailto:hello@wanderlust.ru" class="footer__link">hello@wanderlust.ru</a>
+        </div>
+    </footer>
+
+</body>
+</html>
